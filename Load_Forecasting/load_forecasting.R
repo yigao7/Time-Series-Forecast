@@ -4,9 +4,7 @@ library(xgboost)
 library(fastDummies)
 
 # Load data in R
-setwd("/Users/gaoyi/Desktop")
-
-data = read.csv("CompetitionData.csv")
+data = read.csv("Data.csv")
 
 # First and last few rows of data
 head(data)
